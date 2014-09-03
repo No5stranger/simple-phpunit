@@ -7,8 +7,7 @@ Record phpunit and mockery
 ```
 php composer.phar install --dev
 php conposer.phar dump-autoload
-
 ```
 
 ### Test Mockery
-` phpunit
+` phpunit `
