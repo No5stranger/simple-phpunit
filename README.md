@@ -11,3 +11,8 @@ php conposer.phar dump-autoload
 
 ### Test Mockery
 ` phpunit `
+
+### Create Coverage report
+```
+phpunit --coverage-html ./report
+```

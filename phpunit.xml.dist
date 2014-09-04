@@ -6,10 +6,11 @@
          converNoticeToExceptions="true"
          converWarningsToExceptions="true"
          processIsolation="false"
+         bootstrap="vendor/autoload.php"
     >
     <testsuites>
         <testsuite name="Test test">
-            <directory>Tests</directory>
+            <directory>./Tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>

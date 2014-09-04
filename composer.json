@@ -1,0 +1,16 @@
+{
+    "name": "mockery_test",
+    "require-dev": {
+        "mockery/mockery": "0.9.1",
+        "raveren/kint": "dev-1.0.0-wip",
+        "hamcrest/hamcrest-php": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpunit\\Model\\": "./models"
+        },
+        "files": [
+            "vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest.php"
+        ]
+    }
+}
